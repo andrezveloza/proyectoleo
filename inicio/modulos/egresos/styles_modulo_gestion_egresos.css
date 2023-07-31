@@ -1,0 +1,114 @@
+/* Estilos para el formulario de registro de egresos */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.success-message,
+.error-message {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: #4caf50;
+    background-color: #dff0d8;
+}
+
+.error-message {
+    color: #d9534f;
+    background-color: #f2dede;
+}
+
+.button-volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-volver a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    border-bottom: 1px solid #007bff;
+    transition: border-bottom 0.2s ease;
+}
+
+.button-volver a:hover {
+    border-bottom: 2px solid #007bff;
+}
+
+/* Ajustes para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+}
+/* Estilos para la tabla de egresos */
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}

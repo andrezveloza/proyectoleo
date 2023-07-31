@@ -1,0 +1,304 @@
+/* styles_modulo_gestion_codigos.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a5c4e0; /* Fondo en un tono pastel azul */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto para contraste en el fondo pastel */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #1f2126; /* Color del título */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Estilos para el formulario */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #292c33;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background-color: #1f2126;
+    color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #19d3da; /* Color diferente para el botón "Guardar" */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1aa6b7; /* Color diferente para el botón "Guardar" en hover */
+}
+
+/* Estilos para la tabla */
+.table-container {
+    max-width: 800px; /* Establecer un ancho máximo para el contenedor */
+    margin: 30px auto; /* Centrar el contenedor en la página */
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6f3ff; /* Fondo en un tono pastel azul */
+    border: 4px solid #ccc; /* Borde grueso de la tabla */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #1f2126;
+    text-transform: uppercase;
+    color: #ccc;
+    border-right: 1px solid #ccc; /* Borde derecho para los encabezados */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d1e0ff; /* Fondo más claro para filas pares */
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* styles_modulo_gestion_codigos.css */
+
+/* Estilos adicionales */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los botones de regresar y cerrar sesión */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla */
+.table-container {
+    max-width: 800px; /* Establecer un ancho máximo para el contenedor */
+    margin: 30px auto; /* Centrar el contenedor en la página */
+    overflow-x: auto;
+    border: 4px solid #0c0c0c; /* Borde grueso de la tabla */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6f3ff; /* Fondo en un tono pastel azul */
+    border: 1px solid #080808; /* Borde más delgado para la tabla */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #050505;
+}
+
+th {
+    background-color: #1f2126;
+    text-transform: uppercase;
+    color: #fdf8f8;
+    border-right: 1px solid #0c0c0c; /* Borde derecho para los encabezados */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d1e0ff; /* Fondo más claro para filas pares */
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f3ff; /* Fondo en un tono pastel azul */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto para contraste en el fondo pastel */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #1f2126; /* Color del título */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Estilos para el formulario */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #292c33;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #faf8f8;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background-color: #1f2126;
+    color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #00ff22;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #080808; /* Color diferente para el botón "Guardar" */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e4d1e; /* Color diferente para el botón "Guardar" en hover */
+}
+/* Estilos para el botón "Volver al Menú Principal" */
+.button-volver {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-volver a {
+    text-decoration: none;
+    background-color: #020202;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.button-volver a:hover {
+    background-color: #0056b3;
+}
